@@ -60,6 +60,11 @@ $ddcmd(戈,戈〔 󰂇 󰂶 󰁒 󰄼 〕)  agny
 agny  戈 8326
 ```
 
+## rime 输入法
+拼音词库可能的位置 `/home/{username}/.local/share/fcitx5/rime/py.dict.yaml`
+
+替换拼音词库：将转换后的 `dp.dict.yaml` 改名为 `py.dict.yaml` 替换原有的 `py.dict.yaml`。
+
 # references
 
 [冰凌输入法码表定义 https://www.icesofts.com/guide/guide6.html ](https://www.icesofts.com/guide/guide6.html#:~:text=%E5%8D%81%E5%85%AD%E8%BF%9B%E5%88%B6%E6%95%B0%E5%AD%97%E3%80%82-,%E2%9E%A2%E2%80%83%E7%A0%81%E8%A1%A8%E5%AE%9A%E4%B9%89,-%E2%97%8F%E2%80%83%E7%A0%81%E8%A1%A8%E4%BD%8D%E4%BA%8E)
