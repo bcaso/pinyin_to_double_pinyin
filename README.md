@@ -64,6 +64,7 @@ agny  戈 8326
 拼音词库可能的位置：
 1. `/home/{username}/.local/share/fcitx5/rime/py.dict.yaml`
 2. `/usr/share/rime-data/py.dict.yaml`
+3. 安卓同文输入法，`/sdcard/android/rime/py.dict.yaml`
 
 替换拼音词库：将转换后的 `dp.dict.yaml` 改名为 `py.dict.yaml` 替换原有的 `py.dict.yaml`。
 
