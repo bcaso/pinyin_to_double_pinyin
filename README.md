@@ -29,7 +29,7 @@ main.py 作用：
   
 1. 词库格式：<a href='https://github.com/bcaso/pinyin_to_double_pinyin/blob/main/冰凌输入法/冰凌五笔_小鹤双拼单字反查拼音词库.txt'>冰凌五笔_小鹤双拼单字反查拼音词库.txt</a>
 : Unicode text, UTF-8 (with BOM) text, with CRLF line terminators。
-2. 码表中每行有“编码”、“字”，“优先级/词序” 三个字段，“优先级/词序” 可以省略，字段之间用 `^I` 分隔，通过复制粘贴来输入该字符，在 vim 中 `:set list` 可以显示该字符。例如：
+2. 码表中每行有“编码”、“字”，“优先级/词序” 三个字段，“优先级/词序” 可以省略，字段之间用 `^I` 分隔(ASCII 码中 Tab 字符的表示方式)，通过复制粘贴来输入该字符，在 vim 中 `:set list` 可以显示该字符。例如：
 
 ```shell
 im^I测^I300
